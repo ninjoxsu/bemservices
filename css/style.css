@@ -1,0 +1,174 @@
+body{
+	background-color: #efeeee;
+	background-image: url("../source/img/background.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border: 0;
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* upper */
+.upper{
+	background-color: white;
+}
+.upper .container{
+	height: 50px;
+	margin: 0 auto 0 auto;
+	width: 1024px;
+}
+	/* logo holder*/
+	.logo-holder{
+		background-image: url("../source/img/logo-holder.png");
+		background-repeat: no-repeat;
+		background-size: 150px 100px;
+		height: 95px;
+		padding: 5px 0 0 0;
+		position: absolute;
+		width: 150px;
+	}
+	.logo-holder a img{
+		height: auto;
+		margin: 0 0 0 30px;
+		width: 90px;
+	}
+
+	/* icon-holder */
+	.icon-holder{
+		float: right;
+		padding: 10px 0 10px 0;
+	}
+	.icon-holder a img{
+		height: 30px;
+		margin: 0 2px 0 2px;
+		width: 30px;
+	}
+	.icon-holder a img:hover{
+		cursor: pointer;
+		opacity: 0.3;
+	}
+/* lower */
+.lower{
+	background-color: #00a54f;
+}
+.lower .container{
+	height: 60px;
+	margin: 0 auto 0 auto;
+	width: 1024px;
+}
+	.menu{
+		clear: right;
+		float: right;
+	}
+	.menu ul{
+		list-style: none;
+	}
+	.menu ul li{
+		display: inline;
+		padding: 10px;
+		margin: 0 5px 0 5px;
+	}
+	.menu ul li a{
+		color: white;
+		text-decoration: none;
+	}
+	.menu ul li:hover,
+	.menu ul li:hover a{
+		background-color: white;
+		border-radius: 4px;
+		color: #00a54f;
+	}
+/* content */
+.content{
+	margin: 0 auto 0 auto;
+	width: 1114px;
+}
+	.content .container{
+		background-color: white;
+		margin: 0 auto 0 auto;
+		min-height: 300px;
+		padding: 160px 40px 80px 40px;
+		width: 944px;
+	}
+	.header{
+		position: absolute;
+		padding: 50px 0 0 0;
+	}
+	.header .title{
+		background-color: #ed1b24;
+		float: left;
+		height: 20px;
+		min-width: 200px;
+		padding: 15px;
+	}
+	.header .title span{
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.header-tail{
+		background-image: url("../source/img/header-holder-2.png");
+		background-repeat: no-repeat;
+		background-size: 50px 60px;
+		float: left;
+		height: 50px;
+		width: 60px;
+	}
+	.header-under{
+		background-image: url("../source/img/header-holder-1.png");
+		background-repeat: no-repeat;
+		background-size: 45px 30px;
+		clear: left;
+		float: left;
+		height: 30px;
+		width: 45px;
+	}
+/* footer */
+.foot{
+	background-color: #00a54f;
+	padding: 25px 0 50px 0;
+}
+	.foot .container{
+		margin: 0 auto 0 auto;
+		width: 1024px;
+	}
+	.foot .container hr{
+		border: 1px solid white;
+	}
+	.summary{
+		margin: 0 auto 0 auto;
+		overflow: auto;
+		width: 1024px;
+	}
+	.summary ul,
+	.foot-logo{
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 204.8px;
+	}
+	.summary ul label{
+		color: white;
+	}
+	.summary ul li{
+		margin: 0 0 0 10px;
+	}
+	.summary ul li a{
+		color: white;
+		text-decoration: none;
+	}
+	.foot-logo img{
+		height: auto;
+		width: 180px;
+	}
+	.copyright{
+		color: white;
+		text-align: center;
+	}
+	.copyright p{
+		font-size: 10px;
+		margin: 0;
+		padding: 0;
+	}
